@@ -1,0 +1,8 @@
+#ignore __pycache__ folders
+__pycache__/
+
+#ignore folders starting with a period
+.*/
+
+#ignore Jupyter notebook file
+*.ipynb
