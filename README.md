@@ -10,7 +10,7 @@ This project also includes a more challenging part, that is to train a neural ne
 In part I, I tested linear regression, SVM classification, and softmax regression. In part II, applied neural networks to this task.
 
 ## What I did
-- implemented linear regression using close form solution and found it's inadepuate for this task
+- implemented linear regression using close form solution and found it's inadequate for this task
 - tested scikit-learn's SVM for binary classification and multiclass classification
 - implemented softmax regression using gradient descent
 - implemented kernelized softmax regression. Because the kernel matrix is huge, this is computationally demanding. I found the computation can be accelerated by using the `CuPy` libary and running on Google Colab with GPU 
